@@ -80,13 +80,7 @@ a:active {
 
 --section-title-margin: 0;
 --section-title-color: var(--color-black);
-Just above the section-tagline declaration, create a new declaration targeting the section-title class
 
-Set the family of fonts to font-family-title
-Set the font size to font-size-xx-large
-Set the font weight to font-weight-bold
-Use the section-title-margin to set the margin
-Use the section-title-color to set the text color
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -94,11 +88,3 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: var(--font-weight-bold);
 }
 
-
-Ensure that the declaration targeting anchor elements only targets those containing a hyperlink
-Directly after this declaration, target the visited state for the link
-Italicize the text
-Directly after the visited state, target the hover state for the link
-Decorate the links with an underline when hovering
-Directly after the hover state, target the active state for the link
-Set the color of the background with the variable color-light-grey
